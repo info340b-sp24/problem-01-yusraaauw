@@ -1,13 +1,20 @@
 
 body {
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: blue;
-}
-
-p {
     font-size: 16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.5;
+}
+
+/* Image Styles */
+img {
+    max-height: 400px;
+}
+
+/* Highlight Important List Item */
+.important {
+    color: red; /* Change the color to whatever you prefer */
 }
